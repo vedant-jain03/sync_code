@@ -5,6 +5,7 @@ import Editor from '../components/Editor';
 import { initSocket } from '../Socket';
 import { Navigate, useLocation, useNavigate, useParams } from 'react-router-dom'
 import toast from 'react-hot-toast';
+import logo from "../logo.webp"
 
 function EditorPage() {
   const navigate = useNavigate();
@@ -71,7 +72,7 @@ function EditorPage() {
     <div className='mainWrap'>
       <div className="aside">
         <div className="asideInner">
-          <div className="logo"><h2>Code Sync</h2></div>
+          <div className="logo"><h2 className='logo_design'><img src={logo} alt="" />Sync Code</h2></div>
           <h3>Connected</h3>
           <div className="clientsList">
             {

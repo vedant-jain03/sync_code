@@ -28,7 +28,17 @@ footer a {
   display: flex;
   flex-direction: column;
 }
-
+.logo_design {
+  display: flex;
+align-items: center;
+color: #76c2af;
+font-weight: 500;
+margin: 0;
+}
+.logo_design img {
+  width: 3rem;
+margin-right: 7px;
+}
 .inputBox {
   padding: 10px;
   border-radius: 5px;
